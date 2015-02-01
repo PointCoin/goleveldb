@@ -10,8 +10,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/memdb"
+	"github.com/PointCoin/goleveldb/leveldb/errors"
+	"github.com/PointCoin/goleveldb/leveldb/memdb"
 )
 
 type ErrBatchCorrupted struct {

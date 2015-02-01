@@ -17,8 +17,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/btcsuite/goleveldb/leveldb/storage"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/PointCoin/goleveldb/leveldb/storage"
+	"github.com/PointCoin/goleveldb/leveldb/util"
 )
 
 const typeShift = 4

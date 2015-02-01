@@ -11,8 +11,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/goleveldb/leveldb/storage"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/PointCoin/goleveldb/leveldb/storage"
+	"github.com/PointCoin/goleveldb/leveldb/util"
 )
 
 var (

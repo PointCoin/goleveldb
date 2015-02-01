@@ -9,9 +9,9 @@ package leveldb
 import (
 	"bytes"
 	"fmt"
-	"github.com/btcsuite/goleveldb/leveldb/filter"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"github.com/PointCoin/goleveldb/leveldb/filter"
+	"github.com/PointCoin/goleveldb/leveldb/opt"
+	"github.com/PointCoin/goleveldb/leveldb/storage"
 	"io"
 	"math/rand"
 	"testing"

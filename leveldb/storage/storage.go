@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/PointCoin/goleveldb/leveldb/util"
 )
 
 type FileType uint32

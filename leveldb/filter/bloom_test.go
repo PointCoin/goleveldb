@@ -8,7 +8,7 @@ package filter
 
 import (
 	"encoding/binary"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/PointCoin/goleveldb/leveldb/util"
 	"testing"
 )
 

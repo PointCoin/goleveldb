@@ -11,12 +11,12 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/btcsuite/goleveldb/leveldb/cache"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
-	"github.com/btcsuite/goleveldb/leveldb/table"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/PointCoin/goleveldb/leveldb/cache"
+	"github.com/PointCoin/goleveldb/leveldb/iterator"
+	"github.com/PointCoin/goleveldb/leveldb/opt"
+	"github.com/PointCoin/goleveldb/leveldb/storage"
+	"github.com/PointCoin/goleveldb/leveldb/table"
+	"github.com/PointCoin/goleveldb/leveldb/util"
 )
 
 // tFile holds basic information about a table.

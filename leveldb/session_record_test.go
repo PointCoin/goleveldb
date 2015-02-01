@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/btcsuite/goleveldb/leveldb/opt"
+	"github.com/PointCoin/goleveldb/leveldb/opt"
 )
 
 func decodeEncode(v *sessionRecord) (res bool, err error) {
