@@ -14,8 +14,6 @@ import (
 	"strings"
 	"sync"
 
-	"code.google.com/p/snappy-go/snappy"
-
 	"github.com/PointCoin/goleveldb/leveldb/cache"
 	"github.com/PointCoin/goleveldb/leveldb/comparer"
 	"github.com/PointCoin/goleveldb/leveldb/errors"
@@ -24,6 +22,8 @@ import (
 	"github.com/PointCoin/goleveldb/leveldb/opt"
 	"github.com/PointCoin/goleveldb/leveldb/storage"
 	"github.com/PointCoin/goleveldb/leveldb/util"
+
+	"github.com/btcsuite/snappy-go/snappy"
 )
 
 var (
